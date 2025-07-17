@@ -1,11 +1,4 @@
-Project 1		CS205: Artificial Intelligence, DR. Eammon Keogh
-
-Jordan Peck  
-SID: 862311857  
-Email: [jpeck008@ucr.edu](mailto:jpeck008@ucr.edu)  
-Date: May-10-2024
-
-Resources referenced in completing this assignment:
+Resources referenced in completing this Project:
 
 * Blind Search and Heuristic Search lecture slides  
 * Python 3.12.3 Documentation (found here: [https://docs.python.org/3/index.html](https://docs.python.org/3/index.html))  
