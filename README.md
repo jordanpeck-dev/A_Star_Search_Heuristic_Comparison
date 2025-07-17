@@ -53,12 +53,15 @@ Below are the sample 8-puzzles provided by Dr. Keogh to test the algorithms. The
 
 Number of Nodes Expanded  
 From this graph we can see that both heuristic searches explore far less extraneous paths before reaching the solution state when compared to Uniform Cost Search at every level of difficulty. Further, we see that the Manhattan Search converges more directly than Misplaced Tile Search.
+<img width="390" height="268" alt="Screenshot 2025-07-16 223854" src="https://github.com/user-attachments/assets/dd67beef-b5c4-425d-809b-6666ee485995" />
 
 Runtime  
 We see similar results for runtime as we saw with nodes explored. Again, the heuristic searches greatly outperform Uniform Cost Search and Manhattan Search has the greatest performance of the three.
+<img width="384" height="285" alt="Screenshot 2025-07-16 224026" src="https://github.com/user-attachments/assets/d5003a23-3096-4a48-ba09-51f7c5ac26a3" />
 
 Maximum Queue Size  
 Lastly, to compare the memory performance of the algorithms we observe the maximum number of nodes held in the queue over the course of performing the search. We see that the heuristic algorithms also outperform Uniform Cost Search is space usage and similarly to our other results Manhattan Search uses the smallest memory of all three search algorithms
+<img width="391" height="285" alt="Screenshot 2025-07-16 224108" src="https://github.com/user-attachments/assets/8ce288d1-f4a5-4115-86dd-658021c9b60d" />
 
 Conclusion  
 It can be seen from the comparison of the three search algorithms that the application of the Misplaced Tile and Manhattan heuristics greatly increases the rate at which the search algorithms converge on a solution to the 8-puzzle, reducing both time and space usage. Further, we can confirm the intuition that the Manhattan heuristic, which adheres more closely to the reality of the operations in the n-puzzle problem than Misplaced Tile, performs the best across every metric. This emphasizes the importance of choosing an admissible heuristic that resembles the true nature of the problem at hand as closely as possible (with restraints due to complexity).  
